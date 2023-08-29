@@ -1,0 +1,57 @@
+body
+{
+    background-color: bisque;
+}
+
+.content{
+    height: 400px;
+    width: 600px;
+    background-color: aliceblue;
+    border-radius: 2%;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    padding-top:130px ;
+}
+.hText{
+    padding: 10px 30px;
+    display: flex;
+        justify-content: center;
+        text-align: center;
+    
+}
+
+.options{
+    font-size: 25px;
+    padding: 10px 30px;
+    padding-bottom: 60px;
+
+    
+}
+#op1,#op2,#op3,#op4{
+    padding: 30px opx;
+    
+}
+
+.firstOpt,.secondOpt,.thirdOpt,.fourthOpt{
+    padding-bottom: 10px;
+}
+.submitBtn{
+    width: 600px;
+    height: 70px;
+    border-radius: 7%;
+    background-color: palevioletred;
+    border-color: aliceblue;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+
+.submitBtn:hover{
+    background-color: black;
+}
